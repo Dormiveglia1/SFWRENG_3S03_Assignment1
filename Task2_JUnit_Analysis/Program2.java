@@ -11,7 +11,7 @@ public class Program2 {
 	 */
 	 public static int lastZero (int[] x)
 	 {
-		 for (int i = 0; i < x.length; i++)
+		 for (int i = x.length - 1; i >= 0; i--)
 		 {
 			 if (x[i] == 0)
 			 {
@@ -22,3 +22,4 @@ public class Program2 {
 	 }
 	// test: x=[0,1,0]; Expected = 2
 }
+
