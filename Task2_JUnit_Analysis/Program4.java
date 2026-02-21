@@ -16,7 +16,7 @@ public class Program4 {
 	 
 		 for (int i = 0; i < x.length; i++)
 		 {
-			 if (x[i]%2 == 1 || x[i] > 0)
+			 if (x[i]%2 != 0 || x[i] > 0)
 			 {
 				 count++;
 			 }
@@ -26,3 +26,4 @@ public class Program4 {
 		 // test: x=[-3, -2, 0, 1, 4] 
 		 // Expected = 3
 }
+
